@@ -53,6 +53,15 @@ public class Cliente{
 	public void setGradoSoddisfazione(int gradoSoddisfazione) {
 		this.gradoSoddisfazione = gradoSoddisfazione;
 	}
+
+	public void modificaDati(String ID,String cognome,String nome,String telefono,int gradoSoddisfazione) {
+		this.ID = ID;
+		this.cognome = cognome;
+		this.nome = nome;
+		this.telefono = telefono;
+		this.gradoSoddisfazione = gradoSoddisfazione;
+	}
+
 	
 	
 }
